@@ -1,12 +1,24 @@
 {
-  "name": "UdaciFitness2",
-  "displayName": "UdaciFitness2",
+  "name": "UdaciFitness",
+  "displayName": "UdaciFitness",
   "expo": {
-    "name": "UdaciFitness2",
-    "slug": "UdaciFitness2",
+    "name": "UdaciFitness",
+    "slug": "UdaciFitness",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "orientation": "portrait",
+    "description": "The best triathlon tracker ever",
+    "icon": "url-for-icon-image",
+    "notification": {
+      "icon": "url-for-icon-image"
+    },
+    "ios": {
+      "bundleIdentifier": "org.udacifitness.exp"
+    },
+    "android": {
+      "package": "org.udacifitness.exp"
+    }
   }
 }
